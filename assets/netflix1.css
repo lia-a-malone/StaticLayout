@@ -1,0 +1,19 @@
+.backImg{
+    background-image: url("https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg");
+    height: 615px;
+    width: 1366px;
+    margin: -8px;
+    padding: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.signIn{
+    float: inline-end;
+}
+
+.logo{
+    float: inline-start;
+}
