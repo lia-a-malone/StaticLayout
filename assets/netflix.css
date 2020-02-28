@@ -13,7 +13,7 @@
 
 
 .logo{
-    padding-left: 37px;
+    padding-left: 40px;
 }
 
 .signIn{
@@ -22,12 +22,115 @@
     float: right;
     right: 50px;
     padding: 7px 17px 7px 17px;
-    margin-top: -60px;
+    margin-top: -73px;
     margin-right: 45px;
     text-align: center;
+    font-size: 16px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
+
+.topTxt{
+    text-align: center;
+    border: 2px solid red;
+    color: #ffffff;
+    /* display: grid; */
+    display: block;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  margin-top: 145px;
+    margin-left: 75px;
+    margin-right: 75px;
+*/
+}
+
+.unlim{
+    text-align: center;
+    top: 50px;
+    z-index: 4;
+    color: #ffffff;
+    font-size: 45px;
+    border: 1px solid orange;
+    display: inline-block;
+    max-width: 600px;
+    font-weight: 700px;
+    margin-inline-start: 32px;
+    margin-inline-end: 32px;
+    /*  
+    height: 80px;
+    width: 570px;
+    margin: 0px auto 0px auto;
+    margin: 0 32px 0 32px;
+    margin-left: 45px;
+    line-height: 55px;
+    margin-top: 0px;
+*/
+}
+
+.watch{
+    text-align: center;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight:lighter ;
+    border: 1px solid green;
+    display: block;
+    margin-left: 300px;
+    margin-top: 10px;
+    max-width: 420px;
+    max-height: 30px;
+}
+
+
+.eGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: pink;
+    padding: 0;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid black;
+    column-gap: 0px;
+
+}
+
+.email{
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+input[type=text]{
+    /*width: 180%; */
+    width: 195%;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    padding: 16px 16px;
+    box-sizing: border-box;
+}
+
+.try{
+    /*display: inline;*/
+    font-size: 20px;
+    text-align: center;
+    background-color: #e50914;
+    border: 1px solid blue;
+    /* margin-left: 100px;*/
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 300px;
+
+
+}
+
+
+.ready{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid blue;
+    display: block;
+}
+
