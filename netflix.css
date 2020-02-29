@@ -1,16 +1,24 @@
 
 .top{
-    background-image: url("https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg") ;
-    height: 615px;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/d87f94b1-7c27-4a9f-bee4-1fca3cb81a11/5c5e6a4b-38dc-4115-b4a5-0fcf0678dec4/US-en-20200224-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    font-family: 'Netflix Sans';
+    height: 700px;
     width: 1349px;
     margin: -8px;
     padding: 0px;
+    position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 9px solid rgb(34, 34, 34);
 }
 
-
+.topSymbols{
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .55);
+}
 
 .logo{
     padding-left: 40px;
@@ -25,7 +33,7 @@
     margin-top: -73px;
     margin-right: 45px;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 a {
@@ -33,104 +41,218 @@ a {
     color: #ffffff;
 }
 
+ /*first section */
+
+
 .topTxt{
     text-align: center;
-    border: 2px solid red;
     color: #ffffff;
-    /* display: grid; */
     display: block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*  margin-top: 145px;
-    margin-left: 75px;
-    margin-right: 75px;
-*/
+    width: 910px;
+    margin-top: 75px;
+    margin-left: 10%;
+    margin-right: 25%;
 }
 
-.unlim{
+.unlimited{
+    font-size: 3.125rem;
     text-align: center;
-    top: 50px;
-    z-index: 4;
+    line-height: 1.1;
     color: #ffffff;
-    font-size: 45px;
-    border: 1px solid orange;
-    display: inline-block;
-    max-width: 600px;
-    font-weight: 700px;
-    margin-inline-start: 32px;
-    margin-inline-end: 32px;
-    /*  
-    height: 80px;
-    width: 570px;
-    margin: 0px auto 0px auto;
-    margin: 0 32px 0 32px;
-    margin-left: 45px;
-    line-height: 55px;
-    margin-top: 0px;
-*/
+    margin-left: 27.75%; 
+    top: 20px;
+    position: relative;
+    display: block;
+    max-width: 640px;
+    height: auto;
+    width: 550px;
 }
 
-.watch{
+.watchAnywhere{
     text-align: center;
-    color: #ffffff;
     font-size: 27px;
+    color: #ffffff;
     font-weight:lighter ;
-    border: 1px solid green;
-    display: block;
-    margin-left: 300px;
-    margin-top: 10px;
-    max-width: 420px;
-    max-height: 30px;
+    position: relative;
+    margin-left: 35%;
+    width: 430px;
+    top: 3px;
 }
 
 
-.eGrid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: pink;
-    padding: 0;
-    margin-left: 300px;
-    margin-right: 300px;
-    border: 1px solid black;
-    column-gap: 0px;
-
-}
-
-.email{
-    text-align: center;
-    padding-left: 10px;
-
-}
 
 input[type=text]{
-    /*width: 180%; */
-    width: 195%;
-    padding: 10px 10px;
-    margin: 8px 0px;
-    padding: 16px 16px;
+    width: 448px;
+    height: 60px;
+    top: 9px;
+    left: 21%;
+    padding: 10px;
     box-sizing: border-box;
-}
-
-.try{
-    /*display: inline;*/
-    font-size: 20px;
-    text-align: center;
-    background-color: #e50914;
-    border: 1px solid blue;
-    /* margin-left: 100px;*/
     display: block;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    margin-left: 300px;
-
-
+    position: relative;
 }
 
+.tryNow{
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    width: 234.25px;
+    height: 60px;
+    left: 69.45%;
+    top: -77px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    background-color: #e50914;
+ }
 
 .ready{
     text-align: center;
     color: #ffffff;
-    font-size: 20px;
-    border: 1px solid blue;
-    display: block;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    top: -113px;
+    margin-left: 13%;
+    width: auto;
 }
 
+/*second section*/
+.second{
+    margin-top: 8px;
+    background-color: black;
+    height: 465px;
+    text-align: center;
+    color: white;
+    border-bottom: 9px solid rgb(34, 34, 34);
+    font-family: 'Netflix Sans';
+
+}
+
+
+.secondTxt{
+    width: 550px;
+    margin-left: 9.25%;
+    padding-top: 7%;
+    /*
+    margin-top: 5%;
+    */
+}
+
+
+.enjoyTV{
+    /*position: relative;*/
+    /*top: 60px;*/
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    width: fit-content;
+    line-height: 1.1;
+}
+
+.smartTV{
+    position: relative;
+    display: inline-block;
+    padding-left: 0%;
+    bottom: 25px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    width: fit-content;
+}
+
+
+.tvGif{
+    display: block;
+    width: fit-content;
+    /*top: -174px;*/
+    bottom: 325px;
+    position: relative;
+    left: 53%;
+    z-index: 2;
+}
+.computerGif{
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 55%;
+    z-index: 1;
+    bottom: 650px;
+}
+
+/*third section*/
+
+.thirdPart{
+    background: black;
+    font-family:'Netflix Sans';
+    color: white;
+    border-bottom: 9px solid rgb(34, 34, 34);
+}
+
+.endTxt{
+    display:block;
+    width: 50%;
+    float: right;
+    padding-top: 85px;
+}
+.go{
+    line-height: 1.1;
+    font-size: 48px;
+    width: 75%;
+    height: 100%;
+}
+
+.saveData{
+    height: 100%;
+    font-size: 25px;
+    width: 80%;
+}
+
+.wholePhone{
+    display: block;
+    padding-left: 60px;
+    width: 45%;
+}
+
+.phone{
+    padding-left: 10px;
+    position: relative;
+    width: 335px;
+    height: 95px;
+    left: 65px;
+    bottom: 120px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: black;
+}
+
+.strg{
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+.sTxt{
+    top: -50px;
+    padding-left: 12px;
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    /*padding-right: 5px;*/
+}
+
+.dwnld{
+    bottom: 30px;
+    right: 117px;
+    position: relative;
+    color:#0071eb;
+    display: inline-block;
+}
+
+.button{
+    position: relative;
+    bottom: 70px;
+    left: 275px;
+    /*display: inline-block;*/
+}
