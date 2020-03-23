@@ -92,6 +92,7 @@ input[type=text]{
     position: relative;
 }
 
+
 .tryNow{
     font-size: 26px;
     font-weight: 300;
@@ -101,6 +102,7 @@ input[type=text]{
     left: 69.45%;
     top: -77px;
     box-sizing: border-box;
+    padding-top: 10px;
     display: block;
     position: relative;
     background-color: #e50914;
